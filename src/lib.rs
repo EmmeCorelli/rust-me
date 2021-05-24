@@ -11,7 +11,7 @@ enum Error {
 
 #[derive(PartialEq)]
 pub enum PDUError {
-    //ErrorNo,
+    ErrorNo,
     ErrorLength,
     ErrorCRC,
 }
